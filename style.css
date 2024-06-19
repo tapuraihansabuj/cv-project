@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {}
+
+.profile-image {
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 10px 30px 30px 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(27, 27, 27);
+}
+
+.header-bio h1 {
+    font-size: 50px;
+}
+
+.header-bio h3 {
+    font-size: 13px;
+}
+
+.socialmedia-profile {}
+
+.linkedin-profile-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding: 10px 10px 0px 0px;
+}
+
+.facebook-profile-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+}
+
+.div-clear {
+    clear: both;
+}
+
+.header-bio-experience-portfolio {
+    padding: 10px 0px 0px 0px;
+}
+
+.header-experience {
+    width: 65%;
+    float: left;
+}
+
+.header-experience-style {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.header-portfolio {
+    width: 35%;
+    float: right;
+
+}
+
+.portfolio-icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px 40px 10px 10px;
+}
+
+.content-left-side {
+    width: 30%;
+    float: left;
+    padding: 30px 0px 0px 0px;
+}
+
+.about-me {
+    padding: 0px 10px 0px 0px;
+}
+
+.about-me img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.about-me h1 {
+    float: left;
+    padding: 15px;
+}
+
+.about-me p {
+    float: left;
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+}
+
+.content-right-side {
+    width: 70%;
+    float: left;
+}
+
+.contact {
+    padding: 450px 10px 0px 0px;
+}
+
+.contact img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.contact h1 {
+    float: left;
+    padding: 15px;
+}
+
+.contact h3 {
+    padding: 20px 10px 0px 0px;
+}
+
+.tools {
+    padding: 100px 10px 0px 0px;
+}
+
+.tools img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.tools h1 {
+    float: left;
+    padding: 15px;
+}
+
+.tools-name {
+    padding: 20px 10px 0px 25px;
+}
+
+.tools-name ul li {
+    padding: 5px;
+}
+
+.skills {
+    padding: 100px 10px 0px 0px;
+}
+
+.skills img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.skills h1 {
+    float: left;
+    padding: 15px;
+}
+
+
+.skill-list {
+    padding: 20px 10px 0px 0px;
+}
+
+
+.text{
+    width:50%;
+    float:left;
+}
+.circle-container {
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    float:left;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgb(31, 31, 31); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1{
+    width: 17px;
+    height: 17px;
+    background-color: #181818;
+    border: 1px solid rgb(31, 31, 31); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiences {
+    padding: 30px 10px 0px 60px;
+}
+
+.experiences img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.experiences h1 {
+    float: left;
+    padding: 15px;
+    font-size:30px;
+}
+
+.experiences-left-side{
+    width:30%;
+    float:left;
+}
+
+.company-one-left-side p{
+    padding:22px 0px 0px 0px;
+}
+.experiences-right-side{
+    padding:20px 0px 0px 0px;
+}
+
+.experiences-right-side p{
+    padding:20px 0px 0px 0px;
+    text-align:justify;
+}
+.experiences-right-side{
+    width:70%;
+    float:left;
+}
+
+.company-two-left-side{
+    padding:180px 0px 0px 0px;
+}
+
+.company-two-left-side p{
+    padding:22px 0px 0px 0px;
+}
+
+.company-two-right-side{
+    padding:60px 0px 0px 0px;
+}
+
+
+.education {
+    padding: 550px 10px 0px 60px;
+}
+
+.education img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.education h1 {
+    float: left;
+    padding: 15px;
+    font-size:30px;
+}
+
+.education-left-side{
+    width:30%;
+    float:left;
+}
+
+.education-one-left-side p{
+    padding:22px 0px 0px 0px;
+}
+.education-right-side{
+    padding:20px 0px 0px 0px;
+}
+
+.education-right-side p{
+    padding:20px 0px 0px 0px;
+    text-align:justify;
+}
+.education-right-side{
+    width:70%;
+    float:left;
+}
+
+.education-two-left-side{
+    padding:80px 0px 0px 0px;
+}
+
+.education-two-left-side p{
+    padding:22px 0px 0px 0px;
+}
+
+.education-two-right-side{
+    padding:40px 0px 0px 0px;
+}
+
+.education-three-left-side{
+    padding:60px 0px 0px 0px;
+}
+.education-three-right-side{
+    padding:40px 0px 0px 0px;
+}
+
+.personal-information {
+    padding: 550px 10px 0px 60px;
+}
+
+.personal-information img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.personal-information h1 {
+    float: left;
+    padding: 15px;
+    font-size:30px;
+}
+.information{
+    padding:10px 10px 0px 5px;
+}
+.information p{
+    padding:10px 0px 0px 0px;
+}
+.why-select-me{
+    padding:1700px 0px 0px 0px;
+}
+.why-select-me p{
+    padding:15px 0px 0px 0px;
+    text-align:justify;
+}
+
+.signature{
+    padding:100px 90px 50px 0px;
+    text-align:right;
+    text-decoration: overline;
+}
